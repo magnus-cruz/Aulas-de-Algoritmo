@@ -1,4 +1,5 @@
 # Sistema de Compras - Posto de Gasolina
+# Autor: Luís Fernando
 
 total_geral = 0
 contador_compras = 0
