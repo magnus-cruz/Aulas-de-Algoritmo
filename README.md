@@ -50,15 +50,68 @@ Praticar lógica de programação, entrada e saída de dados, operações matem�
 - Identificar características do conteúdo digitado.
 - Praticar métodos úteis para validação e limpeza de dados.
 
+---
+
+### 1 Trimestre/aula03-part1.py
+
+**Como foi feito:**
+- Jogo 2D com `pygame`, janela `800x600` e loop principal.
+- Classe `PACMAN` com posição, direção e atualização por frame.
+- Controle por teclado com setas para movimentação.
+- Ação especial de **turbo** ao segurar `ESPAÇO`.
+- Desenho do personagem com círculo, boca e olho usando `pygame.draw`.
+- Limites de tela para impedir que o personagem saia da área visível.
+
+**Por que é usado:**
+- Introduzir programação orientada a objetos em jogos.
+- Praticar eventos de teclado e atualização contínua de tela.
+- Entender lógica de movimento e colisão com bordas.
+
+---
+
+### 1 Trimestre/aula03-part2.py
+
+**Como foi feito:**
+- Uso do módulo `math` para operações matemáticas.
+- Leitura de número inteiro com `input()`.
+- Cálculo de raiz quadrada, arredondamento para cima/baixo e potência.
+
+**Por que é usado:**
+- Praticar biblioteca padrão de matemática.
+- Reforçar entrada de dados e formatação de saída.
+
+---
+
+### 1 Trimestre/aula03-parte3.py
+
+**Como foi feito:**
+- Uso do módulo `random` para sorteios.
+- Sorteio de número inteiro entre 1 e 10.
+- Sorteio de nomes de alunos e embaralhamento de lista.
+
+**Por que é usado:**
+- Introduzir geração de aleatoriedade em Python.
+- Praticar listas, separação de texto e iteração com `for`.
+
 ## Requisitos
 
 - Python 3 instalado.
+- Biblioteca `pygame` para executar o jogo em `aula03-part1.py`.
 
 ## Como executar
 
 1. Abra a pasta do projeto no VS Code.
 2. Execute qualquer arquivo `.py` individualmente.
 3. Siga as perguntas exibidas no terminal.
+
+### Execução do jogo (aula03-part1.py)
+
+1. Instale o Pygame:
+	- `pip install pygame`
+2. Execute o arquivo `1 Trimestre/aula03-part1.py`.
+3. Controles:
+	- Setas: movimentação
+	- Espaço: turbo
 
 ## Autor
 
