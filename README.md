@@ -8,6 +8,23 @@ Praticar lógica de programação, entrada e saída de dados, operações matem�
 
 ## Estrutura dos arquivos
 
+### 1 Trimestre/30 de março de 2026/Main.py
+
+**Como foi feito:**
+- Interface musical com `pygame` em estilo moderno (tema escuro com acentos dourados).
+- Layout responsivo com altura mínima de 600px e painéis em efeito glassmorphism.
+- Player com capa da faixa, barra de progresso, controle de volume e indicadores de estado.
+- Sistema de playlist lendo automaticamente todos os arquivos `.mp3` da pasta `Violino Metal`.
+- Troca de faixa por teclado e avanço automático quando a música termina.
+- LED animado sincronizado com estado de reprodução (para quando a música pausa).
+
+**Por que é usado:**
+- Praticar estruturação de um projeto maior com funções separadas por responsabilidade.
+- Aplicar manipulação de áudio e interface gráfica em tempo real com `pygame`.
+- Treinar eventos de teclado, atualização por frame e estado de aplicação.
+
+---
+
 ### 1 Trimestre/aula01.py
 
 **Como foi feito:**
@@ -97,6 +114,7 @@ Praticar lógica de programação, entrada e saída de dados, operações matem�
 
 - Python 3 instalado.
 - Biblioteca `pygame` para executar o jogo em `aula03-part1.py`.
+- Biblioteca `pygame` para executar o player em `1 Trimestre/30 de março de 2026/Main.py`.
 
 ## Como executar
 
@@ -112,6 +130,23 @@ Praticar lógica de programação, entrada e saída de dados, operações matem�
 3. Controles:
 	- Setas: movimentação
 	- Espaço: turbo
+
+### Execução do player Music Lounge (Main.py)
+
+1. Instale o Pygame:
+	- `pip install pygame`
+2. Execute o arquivo `1 Trimestre/30 de março de 2026/Main.py`.
+3. Controles:
+	- Espaço: play/pause
+	- P: pausar
+	- R: retomar
+	- T: reiniciar faixa atual
+	- N: próxima faixa
+	- B: faixa anterior
+	- Seta para esquerda/direita: retroceder/avançar 5 segundos
+	- Seta para cima/baixo: aumentar/diminuir volume
+	- H: expandir/recolher atalhos
+	- S: sair
 
 ## Autor
 
