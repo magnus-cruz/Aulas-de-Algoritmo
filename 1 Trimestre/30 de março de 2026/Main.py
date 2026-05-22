@@ -18,7 +18,7 @@ PLAYING_GREEN = (57, 214, 138)
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-IMAGE_PATH = os.path.join(BASE_DIR, "IMG", "cyborg-green-grass-3840x2160-15996.jpg")
+IMAGE_PATH = os.path.join(BASE_DIR, "IMG", "michael.jpg")
 MUSIC_DIR = os.path.join(BASE_DIR, "Violino Metal")
 
 
